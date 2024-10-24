@@ -29,9 +29,9 @@ function App() {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      {catFact && <p><strong>Dato:</strong> {catFact}</p>}
+      {catFact && <p><strong>Fact:</strong> {catFact}</p>}
       {catImage && <img src={catImage} alt="foto random de gatito"/>}
-      <button onClick={getCatData}>Descubrí más</button>
+      <button onClick={getCatData}>Learn More</button>
     </div>
   );
 }

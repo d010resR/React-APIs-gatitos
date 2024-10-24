@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://i.pinimg.com/originals/db/11/c2/db11c2a750c13f9db20306ce28daf531.png'); 
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+div {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+}
+
+
+
+
+p {
+  font-size: 1.1rem;
+  color: #FFFACD; /* Un color amarillo claro */
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.5;
+  background: rgba(207, 82, 10, 0.521); /* Fondo suave para el texto */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+img {
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  width: 400px;
+  height: 400px;
+  object-fit: cover; 
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(207, 82, 10, 0.651);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: rgba(207, 82, 10, 0.651);
+}

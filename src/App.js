@@ -28,7 +28,7 @@ function App() {
   }, []); // [] asegura que solo se ejecute cuando el componente una vez cuando se renderiza en la pantalla
 
   return (
-    <div style={{ textAlign: 'center' }}>
+    <div>
       {catFact && <p><strong>Fact:</strong> {catFact}</p>}
       {catImage && <img src={catImage} alt="foto random de gatito"/>}
       <button onClick={getCatData}>Learn More</button>

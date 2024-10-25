@@ -3,7 +3,7 @@ Este proyecto es una aplicación sencilla hecha con **React** que obtiene datos 
 ## Funcionalidades
 - Muestra un dato curioso sobre gatos obtenido de la API de **catfact.ninja**.
 - Muestra una imagen aleatoria de gatos obtenida de la API de **The Cat API**.
-- Permite actualizar tanto el dato como la imagen de manera dinámica mediante un botón.
+- Permite actualizar tanto el dato como la imagen de manera dinámica al presionar un botón.
 
 ## Tecnologías utilizadas
 - **React**: Biblioteca de JavaScript para construir la interfaz de usuario.

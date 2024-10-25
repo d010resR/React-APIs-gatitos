@@ -25,7 +25,7 @@ function App() {
   // Uso useEffect para obtener datos de ambas APIs al cargar el componente
   useEffect(() => {
     getCatData();
-  }, []); // [] asegura que solo se ejecute cuando el componente una vez cuando se renderiza en la pantalla
+  }, []); // [] asegura que solo se ejecute cuando el componente se renderiza en la pantalla
 
   return (
     <div>
